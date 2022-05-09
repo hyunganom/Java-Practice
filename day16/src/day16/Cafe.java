@@ -14,7 +14,7 @@ public class Cafe {
 			System.out.println("카페에 오신걸 환영합니다.");
 			System.out.println("1. 주문하기 :");
 			System.out.println("2. 취소하기 :");
-			System.out.println("3. 결제하기 :");
+//			System.out.println("3. 결제하기 :");
 			System.out.println("4. 끝내기 :");
 			System.out.println("입력 :");
 			int num=sc.nextInt();

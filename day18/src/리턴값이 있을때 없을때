@@ -1,0 +1,22 @@
+public static int power(int x, int y) {
+		return x + y;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println(power(30,40));
+    
+  -------------------------------------------------  
+public static void power(int x, int y) {
+		System.out.println(x+y);
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		power(30,40);
+------------------------------------------------
+이 둘의 차이를 알아내느라 꽤나 애 먹었다 ㅜㅜ 우선 데이터타입이 void와 int로 서로 다른모습을 보인다.
+리턴값이 없을 때 즉, 메서드 블록안에 출력문이 직접 담겨있을때는 void를 작성해야하고
+리턴값이 있을때는 값에 맞는 데이터 타입을 작성해줘야한다.

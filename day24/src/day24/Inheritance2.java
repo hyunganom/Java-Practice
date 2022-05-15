@@ -4,6 +4,8 @@ public class Inheritance2 {
 
 	public static void main(String[] args) {
 		Leader leader=new Leader();
+		
+		
 		leader.say();
 	}
 
@@ -25,5 +27,6 @@ class Leader extends Student2{
 	void say() {//메서드 오버라이딩
 		System.out.println("선생님께 인사!");
 		super.say();
+		
 	}
 }

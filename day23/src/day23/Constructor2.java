@@ -14,8 +14,8 @@ class cellphone{
 	int capacity=60;
 	
 	cellphone() {
-		System.out.println("model"+model);
-		System.out.println("color"+color);
-		System.out.println("capacity"+capacity);
+		System.out.println("model: "+model);
+		System.out.println("color: "+color);
+		System.out.println("capacity: "+capacity);
 	}
 }

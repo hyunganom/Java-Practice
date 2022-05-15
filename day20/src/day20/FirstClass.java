@@ -10,6 +10,7 @@ public class FirstClass {
 		
 		ca.x=30;
 		System.out.println(ca.x);
+		ca.f1();
 	}
 
 }

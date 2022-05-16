@@ -16,6 +16,7 @@ class Car{
 	//Car(){}
 	Car(String color){
 		this.color=color;
+		//내가 받아오는 칼라는 멤버의 칼라다.
 	}
 }
 class SportsCar extends Car{

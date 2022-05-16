@@ -14,7 +14,7 @@ class Bclass{
 	String name;
 	Bclass(){}
 	Bclass (String name){//매개변수 생성자
-		System.out.println("Bclass의 매갸변수 생성자()");
+		System.out.println("Bclass의 매개변수 생성자()");
 		this.name=name;
 		
 		}

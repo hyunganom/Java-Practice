@@ -70,6 +70,7 @@ public class Variable {
 		System.out.println("age : "+age);
 		System.out.println("height : "+height);
 		
+		sc.close();
 	}
 	
 	

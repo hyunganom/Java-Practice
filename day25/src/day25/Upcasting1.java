@@ -8,7 +8,7 @@ public class Upcasting1 {
 		st1.study();
 		//업캐스팅
 		Human h1=new Student("나길동", 15, "게임하기", 3);
-		h1.info();
+		h1.info(); // 부모클래스인데 자식클래스안에 학년까지 출력해서 나옴 : 업캐스팅
 		//h1.study();
 		//System.out.println(h1.grade);
 		
@@ -19,7 +19,7 @@ class Human{
 	String name;
 	int age;
 	String hobby;
-	public Human(String name, int age, String hobby) {
+	public Human(String name, int age, String hobby) {//매개변수 생성자
 		this.name = name;
 		this.age = age;
 		this.hobby = hobby;

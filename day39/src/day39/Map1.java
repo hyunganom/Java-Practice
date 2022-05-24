@@ -17,9 +17,9 @@ public class Map1 {
 		String voca;
 		System.out.print("알고싶은 단어를 입력하세요: ");
 		voca=sc.nextLine();
-		//containsKey(Key) : key가 hasmap에 존재하면 true
+		//2. containsKey(Key) : key가 hasmap에 존재하면 true
 		if(hm.containsKey(voca)) {
-			//3.get(key) : value 값 반환
+		//3. get(key) : value 값 반환
 			System.out.println("해당하는뜻은: "+hm.get(voca));
 		}
 		else {

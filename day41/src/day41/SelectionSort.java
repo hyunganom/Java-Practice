@@ -12,9 +12,14 @@ public class SelectionSort {
 					 tmp=ar[min];
 					 ar[min]=ar[j];
 					 ar[j]=tmp;
+					 System.out.println();
+					 for(int k=0; k<ar.length-1;k++) {
+						 System.out.print(ar[k]+" ");
+					 }
 				 }
 			 }
 		}
+		System.out.println();
 		System.out.println("-----Á¤·ÄÈÄ-----");
 		for(int i=0;i<ar.length;i++) {
 			System.out.print(ar[i]+" ");

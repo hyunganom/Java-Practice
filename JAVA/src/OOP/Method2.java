@@ -3,7 +3,9 @@ package OOP;
 public class Method2 {
 
 	public static void main(String[] args) {
+		//mymath 객체생성
 		MyMath mm = new MyMath();
+		//mymath 객체사용
 		long result1 = mm.add(5L, 3L);
 		long result2 = mm.subtract(5L, 3L);
 		long result3 = mm.multiply(5L, 3L);
@@ -13,11 +15,11 @@ public class Method2 {
 		System.out.println("subtract(5L, 3L) = "+result2);
 		System.out.println("multiply(5L, 3L) = "+result3);
 		System.out.println("divide(5L, 3L) = "+result4);
-		
 	}
 
 }
-
+//mymath 클래스 작성
+//메서드는 클래스 영역에만 정의 가능!!!!
 class MyMath{
 	long add(long a, long b) {
 		long result = a+b;

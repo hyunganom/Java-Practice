@@ -12,7 +12,7 @@ public class Parameter1 {
 	}
 	static void change(int x) {//기본형 매개변수
 		x = 1000;
-		System.out.println("change() : x =" + x);
+		System.out.println("change() : x = " + x);
 	}
 }
 class Date{int x;}
